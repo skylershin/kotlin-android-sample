@@ -9,14 +9,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val myName: String = "munkyu"
-        printLengthOf(myName)
+        setText(calculateRecArea().toString())
     }
 
-    fun printLengthOf(name: String) {
-        val length = name.length
-        setText(length.toString())
+    fun calculateRecArea(): Int {
+        val width = 30
+        val height = 12
+
+        return area(width, height)
+    }
+
+    fun area(width: Int, height: Int): Int {
+        return width * height
     }
 
     fun setText(text: String) {
