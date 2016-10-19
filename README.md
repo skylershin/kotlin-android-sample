@@ -1,6 +1,15 @@
-# kotlin-android-sample
-This repository is based on Kotlin-Android class conducted at Mangoplate during 2016 Fall.
-The class covers subjects ranging from making HelloWorld app to making a TODO-List app.
+# Play with if/else 
+Hi all!
+We are going to play with if/else statement. 
+This statement used to control flow. 
+For example, if a is greater than b then print a. or if a equals to b then print all. 
+
+Let's create a Simple login page.
+We will handle 
+* a Map data structure has a some entities + How create a immutable/mutable map, What is difference between them. 
+* a EditText enabled input text.
+* a Button taked a click event.
+* a If/Else statement for controlling flow.
 
 ##How study kotlin-android using this repository?
 To use this repository, I introduce several branch strategies.
