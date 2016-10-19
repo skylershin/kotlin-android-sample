@@ -29,15 +29,30 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onClickLoginButton() {
+        // Get a EditText instance.
         val idEdit = findViewById(R.id.id_edit_text) as EditText
         val passwordEdit = findViewById(R.id.password_edit_text) as EditText
+        // Get a text inside the editTextView
         val id = idEdit.text.toString() // Munkyu
         val password = passwordEdit.text.toString() //12345
+        // And Login!! 
         login(id, password)
     }
 
     private fun login(id: String, password: String) {
+        // If you want to any person can't change data, create a immutable map.
+        // In kotlin, provide a immutable map as default option.
+        // If you want to change data later, create mutable map.
+        // val mutableMap = mutableMapOf<String, Int>(Pair("munkyu", 12345), Pair("lucy", 1234))
         val immutableMap = mapOf<String, Int>(Pair("munkyu", 12345), Pair("lucy", 1234))
+        // Inside a Map
+        //
+        //    key     value
+        // ------------------
+        // | munkyu | 12345 |
+        // ------------------
+        // | lucy   | 1234  |
+        // ------------------
 
         // We are checking data in Map. If you saved data in network then you request login api.
         if (immutableMap.get(id).toString().equals(password)) {
