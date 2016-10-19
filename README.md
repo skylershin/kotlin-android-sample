@@ -3,23 +3,23 @@ This repository is based on Kotlin-Android class conducted at Mangoplate during 
 The class covers subjects ranging from making HelloWorld app to making a TODO-List app.
 
 ## Progress.
-[x] Play with String.
-[x] Play with Int.
-[x] Play with If/else.
-[] Play with When.
-[] Play with Function.
-[] Play with Lambda.
-[] Play with For loop.
-[] Play with While loop.
-[] Play with Class And OOP.
-[] Play with Interface.
-[] Play with Activity.
-[] Play with Layout.
-[] Play with RecyclerView.
-[] Play with CustomView.
-[] Play with Communication between acitivities.
-[] Play with SQL lite.
-[] Play with Shared Preference. 
+- [x] Play with String.
+- [x] Play with Int.
+- [x] Play with If/else.
+- [ ] Play with When.
+- [ ] Play with Function.
+- [ ] Play with Lambda.
+- [ ] Play with For loop.
+- [ ] Play with While loop.
+- [ ] Play with Class And OOP.
+- [ ] Play with Interface.
+- [ ] Play with Activity.
+- [ ] Play with Layout.
+- [ ] Play with RecyclerView.
+- [ ] Play with CustomView.
+- [ ] Play with Communication between acitivities.
+- [ ] Play with SQL lite.
+- [ ] Play with Shared Preference. 
 
 ##How study kotlin-android using this repository?
 To use this repository, I introduce two branch strategies.
