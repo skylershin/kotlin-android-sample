@@ -9,7 +9,7 @@ The class covers subjects ranging from making HelloWorld app to making a TODO-Li
 - [ ] Play with When.
 - [ ] Play with Function.
 - [ ] Play with Lambda.
-- [ ] Play with For loop.
+- [x] Play with For loop.
 - [ ] Play with While loop.
 - [ ] Play with Class And OOP.
 - [ ] Play with Interface.
