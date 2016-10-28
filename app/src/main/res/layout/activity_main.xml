@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,30 +12,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.firstapplication.MainActivity">
 
-    <EditText
-        android:id="@+id/id_edit_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="id를 입력해주세요."
-        android:textSize="20dp"
-        />
-
-    <EditText
-        android:id="@+id/password_edit_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="비밀번호를 입력해주세요"
-        android:textSize="20dp"
-        />
-
-    <Button
-        android:id="@+id/login_button"
+    <TextView
+        android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="로그인"
-        android:textSize="30dp"
-        android:textColor="#ffffff"
-        android:background="#296aff"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
         />
-
-</LinearLayout>
+</RelativeLayout>
