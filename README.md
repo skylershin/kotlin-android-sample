@@ -1,15 +1,35 @@
-# Play with if/else 
-Hi all!
-We are going to play with if/else statement. 
-This statement used to control flow. 
-For example, if a is greater than b then print a. or if a equals to b then print all. 
+# Play with Loop 
+Hi all!</br>Today, we will cover how to iterate using while, do-while, for loop. 
 
-Let's create a Simple login page.
-We will handle 
-* a Map data structure has a some entities + How create a immutable/mutable map, What is difference between them. 
-* a EditText enabled input text.
-* a Button taked a click event.
-* a If/Else statement for controlling flow.
+##How to select certain expression between them?
+</br> Okay. I can give a some tips. If you has a some condition and want to execute code until match that, recommend using `while` loop.
+</br> And, there are codes do must execute before check the condition, use a `do-while` loop.
+</br> Or will you deal with a Collections, a Range? Then recommend play with for loop. 
+
+##Why use a `for`loop to deal with a Collections?
+`for` loop use a `in` operator for iterating through a collections. like this.</br>
+```kotlin
+    for(item in list) {
+      //some codes.
+    }
+```
+</br>
+So you can write for loop expression in a concise manner. It's awesome!!
+##How about a Range?
+`Range` is a very concise way to express range has a start point and end point. In java, or many traditional language express this way. `i=0; i<10; i++` like c. `Range` is more comprehensive and intuitive than before.</br>
+```kotlin
+    for(num in 1..10) {
+      print(num)
+    }
+```
+</br>Futhermore, if you want to get a number have interval of about 5. Then, </br>
+```kotlin
+    for(num in 1..10 step 5) {
+      print(num)
+    }
+```
+</br>Yay! Next, Check the `MainActivity.kt` file. There are sample codes answer about 'Calculate a karvonen heartbeat.' question. You can solve too, using while or do-while or for loop. </br>
+Thanks. See you in the next chapter.
 
 ##How study kotlin-android using this repository?
 To use this repository, I introduce several branch strategies.
