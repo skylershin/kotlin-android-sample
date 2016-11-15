@@ -13,16 +13,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val resultTextView = findViewById(R.id.resultTextView) as TextView
-        var result = ""
-        for (intensity in 55..95 step 5) {
-            val bpm = calculateKarvonen(intensity)
-            result += "\n bpm : $bpm"
-        }
-        resultTextView.text = result
+        val munkyu = Person(name= "munkyu",age =  27)
+
+        munkyu.sleep()
     }
 
-    fun calculateKarvonen(intensity: Int): Int {
-        return ((220 - 27) - (100 * intensity / 100)) + 100
-    }
 }
