@@ -13,10 +13,43 @@
     tools:context="com.example.firstapplication.MainActivity">
 
     <TextView
-        android:id="@+id/resultTextView"
+        android:id="@+id/keywordTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="14dp"
+        android:text="keyword: "
+        />
+
+   <android.support.v7.widget.AppCompatButton
+       android:id="@+id/searchButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+       android:text="검색하기"
+       android:textSize="14dp"
+       />
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/keywordTitle"
+        android:layout_toLeftOf="@id/searchButton"
+        android:maxLines="1"
+        android:hint="Search for keyword"
+        android:textSize="14dp"
+        />
+
+    <TextView
+        android:id="@+id/searchResultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchBar"
+        android:layout_marginTop="10dp"
         android:textSize="20dp"
-        android:layout_centerInParent="true"
+        android:gravity="center"
         />
 </RelativeLayout>
