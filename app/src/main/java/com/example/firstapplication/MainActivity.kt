@@ -9,10 +9,9 @@ import android.widget.TextView
 /**
  * Simple Search application
  *
- * 동료들의 이름을 리스트에 저장을 한다음
- * EditText를 활용해서 keyword를 받고
- * 검색하기 버튼을 눌러서 검색결과를 보여줍니다
- *
+ * Save colleagues name to List,
+ * Get keyword using EditText.
+ * And Click the search button, Show the search results.
  */
 class MainActivity : AppCompatActivity() {
 
