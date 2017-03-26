@@ -26,17 +26,10 @@ class MainActivity : AppCompatActivity() {
             val searchResultView = findViewById(R.id.search_result_view) as TextView
             val keyword = searchKeywordEdit.text.toString()
 
-            searchResultView.text = getSearchResult(filter(keyword))
         }
     }
 
-    fun filter(keyword: String): List<String> {
-        val data = listOf<String>("munkyu", "ines", "amy", "lucy", "jason", "jack", "jeff", "clark", "kevin")
 
-        return data.filter { name ->
-            name.startsWith(keyword)
-        }
-    }
 
     fun getSearchResult(filteredData: List<String>): String {
         return filteredData.reduce{ current, next ->
