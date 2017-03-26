@@ -33,7 +33,7 @@ public class SearchResultViewModelUnitTest {
     @Test
     public void filter() throws Exception {
         List<String> answers = mSearchResultViewModel.filter("j");
-        
+
         assertTrue(answers.contains("jack"));
         assertTrue(answers.contains("jeff"));
         assertTrue(answers.contains("jason"));
