@@ -14,16 +14,16 @@ Or will you deal with a Collections, a Range? Then recommend play with for loop.
       //some codes.
     }
 ```
-</br>
-So you can write for loop expression in a concise manner. It's awesome!!
+So you can write for loop expression in a concise manner. It's awesome!!  
+
 ## How about a Range?
 `Range` is a very concise way to express range has a start point and end point. In java, or many traditional language express this way. `i=0; i<10; i++` like c. `Range` is more comprehensive and intuitive than before.</br>
 ```kotlin
     for(num in 1..10) {
       print(num)
     }
-```
-Futhermore, if you want to get a number have interval of about 5. Then, </br>
+```  
+Futhermore, if you want to get a number have interval of about 5. Then,   
 ```kotlin
     for(num in 1..10 step 5) {
       print(num)
