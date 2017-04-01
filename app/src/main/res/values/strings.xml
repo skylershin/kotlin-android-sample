@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FirstApplication</string>
+    <string name="preview_task_title">clean up</string>
 </resources>
