@@ -15,9 +15,12 @@ class TasksActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tasks)
 
+        setSupportActionBar(toolbar)
+//        supportActionBar?.title = "앞으로 할일"
+
         val task = Task("coding",
                 mutableListOf<SubTask>(SubTask("test")),
-                  Label(R.color.colorAccent, "중요"))
+                Label(R.color.colorAccent, "중요"))
         val tasks: MutableList<Task> = mutableListOf(task)
 
         adapter = TaskAdapter()
